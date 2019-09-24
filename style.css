@@ -1,0 +1,107 @@
+h2,h3, ul {
+  margin: 0px; 
+	font-family: 'Roboto', sans-serif;
+}
+
+h2,h3,time {
+  color: #730202;
+	font-family: 'Roboto', sans-serif;
+	padding-bottom: 20px;
+}
+
+time {
+	font-size: 1.2em;
+}
+
+li,p,figcaption {
+  color: #e9e9e9;
+	font-family: 'Roboto', sans-serif;
+}
+
+html {
+  background-color: #F2D8CE;
+}
+
+#container {
+  margin: 0 auto; 
+  width: 960px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  filter: drop-shadow(5px 5px 5px #222);
+	margin-bottom: 20px; 
+}
+
+#bio {
+  display: flex;
+}
+
+#bio-details {
+  margin-left:20px;
+	flex: 1;
+}
+
+#namedate {
+  display: flex;
+  justify-content: space-between;
+}
+
+#dev-list {
+  background-color: #BF4136;
+  padding: 10px;
+}
+
+#dev-list > h3 {
+	margin-top: 4px;	
+}
+
+ul {
+	padding: 0px;
+	list-style-position: inside;
+}
+#tech {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+figure {
+  margin: 0px;
+  max-width: 200px;
+}
+
+figure img {
+  height: 200px;
+  width: 200px;
+}
+
+figcaption {
+  text-align: center;
+  background: rgba(3,3,3,0.5);
+  position: relative;
+  bottom: 35px;
+  padding: 5px;
+}
+
+#chosetech{
+  background-color:#BF4136;
+  padding: 10px;
+}
+
+footer {
+	margin-top: 20px;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+  color:#484848;
+  background-color: #DFB3AC;
+}
+
+span {
+	color: #BF4136;
+}
+
+#chosetech > p {
+	margin-top: 4px;
+}
